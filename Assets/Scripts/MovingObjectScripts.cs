@@ -3,7 +3,9 @@ using System.Collections;
 
 public class MovingObjectScripts : MonoBehaviour {
 
+	public float testSpeed = 0.1f; //Testing var to check whether there is a change or not in branches
 	public float speed = 0.5f;
+
 
 	// Use this for initialization
 	void Start () {
