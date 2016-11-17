@@ -45,8 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CactusDestroyer.cs" />
      <Compile Include="Assets\Scripts\CameraRunner.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\SpawnCactus.cs" />
      <Compile Include="Assets\Scripts\SpawnGround.cs" />
      <Compile Include="Assets\Scripts\Tyrano.cs" />
  <Reference Include="UnityEngine.Networking">

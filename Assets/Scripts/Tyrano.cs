@@ -20,6 +20,8 @@ public class Tyrano : MonoBehaviour {
 	//mengatur jalannya animasi pada Tyrano
 	Animator anim;
 
+
+
 	// Use this for initialization
 	void Start () {
 		anim = GetComponent<Animator> ();
@@ -54,4 +56,6 @@ public class Tyrano : MonoBehaviour {
 			GetComponent<Rigidbody2D> ().AddForce(new Vector2 (0,jumpForce));
 		}
 	}
+
+
 }

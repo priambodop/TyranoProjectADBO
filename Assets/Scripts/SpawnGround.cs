@@ -18,10 +18,5 @@ public class SpawnGround : MonoBehaviour {
 		Invoke ("Spawn",Random.Range(spawnMin,spawnMax));
 	}
 
-	void OnTriggerEnter2D(Collider2D other){
-		if(other.tag == "Player"){
-			Debug.Break ();
-			return;
-		}
-	}
+
 }
