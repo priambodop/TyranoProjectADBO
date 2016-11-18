@@ -17,23 +17,23 @@ public class ScoringManager : MonoBehaviour {
 		//audio2 = GetComponent<AudioSource> ();
 	}
 
-// Update is called once per frame
+	// Update is called once per frame
 	void Update () {
 		transform.Translate(Vector3.right*PlayerPrefs.GetInt("speed",7)*Time.deltaTime);
 		presentScore += Time.deltaTime * 10;
 		score = (int)presentScore;
 
 		if (highScore < score) 
-	{
-		PlayerPrefs.SetInt ("highScore", score);
-		//PlayerPrefs.Save ();
-	}
+		{
+			PlayerPrefs.SetInt ("highScore", score);
+			//PlayerPrefs.Save ();
+		}
 		if (score % 100 == 0 && score!= 0) {
-		//audio2.Play ();
-	}
+			//audio2.Play ();
+		}
 	}
 
-void OnGUI()
+	void OnGUI()
 	{
 		string StringhighScore = highScore.ToString ();
 		string StringScore = score.ToString ();
@@ -46,7 +46,9 @@ void OnGUI()
 	public void cekHighScore()
 	{
 		if (score > highScore) {
-		PlayerPrefs.SetInt ("HighScore", score);
+			PlayerPrefs.SetInt ("HighScore", score);
+		} else {
+			PlayerPrefs.SetInt ("HighScore", highScore);
 		}
 	}
 
