@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B4F96913-81B5-527A-E2FF-AB5B19D8B584}</ProjectGuid>
+    <ProjectGuid>{1EA5CBFD-F104-8842-8358-A355C6C471E9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -48,9 +48,11 @@
      <Compile Include="Assets\Scripts\CactusDestroyer.cs" />
      <Compile Include="Assets\Scripts\CameraRunner.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
-     <Compile Include="Assets\Scripts\SpawnCactus.cs" />
-     <Compile Include="Assets\Scripts\SpawnGround.cs" />
-     <Compile Include="Assets\Scripts\Tyrano.cs" />
+     <Compile Include="Assets\Scripts\MegamanControllerScript.cs" />
+     <Compile Include="Assets\Scripts\Over.cs" />
+     <Compile Include="Assets\Scripts\ScoringManager.cs" />
+     <Compile Include="Assets\Scripts\ScrollingBackground.cs" />
+     <Compile Include="Assets\Scripts\SpawnObject.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>

@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 7feb4df4a53de4f97bf78ef0cc41247a
+timeCreated: 1479523763
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mmx_tombot_0
+    21300002: mmx_tombot_1
+    21300004: mmx_tombot_2
+    21300006: mmx_tombot_3
+    21300008: mmx_tombot_4
+    21300010: mmx_tombot_5
+    21300012: mmx_tombot_6
+    21300014: mmx_tombot_7
+    21300016: mmx_tombot_8
+    21300018: mmx_tombot_9
+    21300020: mmx_tombot_10
+    21300022: mmx_tombot_11
+    21300024: mmx_tombot_12
+    21300026: mmx_tombot_13
+    21300028: mmx_tombot_14
+    21300030: mmx_tombot_15
+    21300032: mmx_tombot_16
+    21300034: mmx_tombot_17
+    21300036: mmx_tombot_18
+    21300038: mmx_tombot_19
+    21300040: mmx_tombot_20
+    21300042: mmx_tombot_21
+    21300044: mmx_tombot_22
+    21300046: mmx_tombot_23
+    21300048: mmx_tombot_24
+    21300050: mmx_tombot_25
+    21300052: mmx_tombot_26
+    21300054: mmx_tombot_27
+    21300056: mmx_tombot_28
+    21300058: mmx_tombot_29
+    21300060: mmx_tombot_30
+    21300062: mmx_tombot_31
+    21300064: mmx_tombot_32
+    21300066: mmx_tombot_33
+    21300068: mmx_tombot_34
+    21300070: mmx_tombot_35
+    21300072: mmx_tombot_36
+    21300074: mmx_tombot_37
+    21300076: mmx_tombot_38
+    21300078: mmx_tombot_39
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmx_tombot_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 94
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_1
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 94
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 94
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 92
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 92
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 62
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 62
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 60
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 62
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 62
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_10
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_11
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 62
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_12
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 62
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_13
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_14
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 62
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_16
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 59
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 38
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 38
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 38
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_20
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 38
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_21
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 38
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 18
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 16
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 10
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 10
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_26
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 17
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_28
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 12
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_29
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 12
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_30
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_31
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 17
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_32
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 11
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_33
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 11
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 6
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_36
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 9
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 8
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_38
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 5
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mmx_tombot_39
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 5
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
