@@ -13,10 +13,16 @@ public class MegamanControllerScript : MonoBehaviour {
 	public float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
 	public float jumpForce = 700f;
+	//Atribut audio1 yang bertipe AudioSource[]
+	//Digunakan array karena script ini di attach ke main chracter dimana terdapat script lain yang menggukan AudioSource
+	//Supaya memudahkan pemanggilan suara mana yang akan dipanggil maka menggunakan array
+	public AudioSource[] audio1;
 
 
 	// Use this for initialization
 	void Start () {
+		//baris ini berfungsi untuk mendapatkan setiap properti yang dimiliki AudioSource
+		audio1 = GetComponents<AudioSource> ();
 		anim = GetComponent<Animator>();
 	}
 	
@@ -38,10 +44,13 @@ public class MegamanControllerScript : MonoBehaviour {
 			
 	}
 
+	//Method ini berfungsi untuk melakukan animasi loncat pada main character dengan menekan tombol spasi
+	//Bila tombol spasi ditekan maka audio1 pun akan dimainkan
 	void Update(){
 		if(grounded && Input.GetKeyDown(KeyCode.Space)){
 			anim.SetBool ("ground",false);
 			GetComponent<Rigidbody2D>().AddForce (new Vector2(0,jumpForce));
+			audio1[0].Play ();
 		}
 
 		if (grounded && Input.GetKey (KeyCode.S)) {

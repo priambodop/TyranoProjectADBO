@@ -8,6 +8,7 @@ public class ScoringManager : MonoBehaviour {
 	public float presentScore;
 	public int highScore;
 	public GUIStyle style1;
+	//Atribut audio2 yang bertipe AudioSource
 	public AudioSource audio2;
 
 	void Start () {
@@ -15,6 +16,7 @@ public class ScoringManager : MonoBehaviour {
 		score = 0;
 		highScore = PlayerPrefs.GetInt("HighScore",score);
 		reset ();
+		//baris ini berfungsi untuk mendapatkan setiap properti yang dimiliki AudioSource
 		audio2 = GetComponent<AudioSource> ();
 	}
 
@@ -27,8 +29,8 @@ public class ScoringManager : MonoBehaviour {
 		if (highScore < score) 
 		{
 			PlayerPrefs.SetInt ("highScore", score);
-			//PlayerPrefs.Save ();
 		}
+		//kondisi dimana bila score di mod 100 = 0 dan score tidak sama dengan 0 maka audio2 akan dimainkan
 		if (score % 100 == 0 && score!= 0) {
 			audio2.Play();
 		}
