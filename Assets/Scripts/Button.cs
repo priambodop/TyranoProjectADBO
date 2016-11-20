@@ -9,7 +9,8 @@ public class Button : MonoBehaviour {
 
 	}
 
-	// Update is called once per frame
+	// Method untuk memulai game pertama kali dari Start Scene
+	// Game akan langsung dimulai ketika diberikan input "Space" atau "Click" mouse
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Space) || Input.GetMouseButton(0)) {
 			SceneManager.LoadScene ("Main Scene");
