@@ -19,7 +19,8 @@ public class Over : MonoBehaviour {
 	void Update () {
 
 	}
-
+	//Method yang mengecek ketika karakter collide dengan obstacles
+	//akan mengeluarkan suara udio
 	void OnTriggerEnter2D(Collider2D collider){
 		if(collider.name == "Quad1"){
 			over = true;
@@ -27,7 +28,9 @@ public class Over : MonoBehaviour {
 			audio3[1].Play ();
 		}
 	}
-
+	
+	//Method yang mengeluarkan GUI ketika player kalah (menabrak obstacles)
+	//Diberikan reset button untuk memulai kembali game dari awal
 	void OnGUI ()
 	{
 		if (Time.timeScale == 0) 
