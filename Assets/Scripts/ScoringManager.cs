@@ -35,17 +35,17 @@ public class ScoringManager : MonoBehaviour {
 			audio2.Play();
 		}
 	}
-
+	//Method berfungsi untuk menampilkan High Score dan Score saat game sedang berjalan
 	void OnGUI()
 	{
 		string StringhighScore = highScore.ToString ();
 		string StringScore = score.ToString ();
 
-
 		GUI.Label(new Rect(Screen.width*0.8f,Screen.height*0.07f,Screen.width*0.2f,Screen.height*0.05f)," "+StringScore,style1);
 		GUI.Label (new Rect (Screen.width * 0.65f, Screen.height * 0.07f, Screen.width * 0.2f, Screen.height * 0.05f), "HI " + StringhighScore, style1);
 	}
-
+	//Method berfungsi untuk mengecek High Score mana yang akan ditampilkan
+	//Diantara High Score sebelumnya dan score yang sedang berjalan
 	public void cekHighScore()
 	{
 		if (score > highScore) {
@@ -55,10 +55,11 @@ public class ScoringManager : MonoBehaviour {
 		}
 	}
 
+	//Method untuk menghapus High Score ketika game di exit
+	//Tiap memulai game, High Score akan di set menjadi 0
 	void reset()
 	{
 		PlayerPrefs.DeleteKey ("HighScore");
 		PlayerPrefs.Save ();
-
 	}
 }
