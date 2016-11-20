@@ -32,7 +32,7 @@ public class Over : MonoBehaviour {
 	{
 		if (Time.timeScale == 0) 
 		{
-			GUI.Label (new Rect (670,250,10,10), "Game Over !", style2);
+			GUI.Label (new Rect (Screen.width * 0.50f, Screen.height * 0.40f,10,10), "Game Over !", style2);
 			if (GUI.Button (new Rect (Screen.width * 0.48f, Screen.height * 0.55f, 50, 50), image1)) {
 				ScoringManager.scoring.cekHighScore ();
 				Application.LoadLevel ("Main Scene");
