@@ -3,12 +3,16 @@ using System.Collections;
 
 public class SpawnObject : MonoBehaviour {
 
-	public GameObject[] obj;
+	public GameObject[] obj;								// obj merupakan array of GameObjek yang akan menyimpan 
+															// kumpulan-kumpulan GameObjek yang akan dipakai dalam permainan
 
-	public float spawnMin = 1f;
-	public float spawnMax = 2f;
+	public float batasWaktuSpawnMin = 1f;					// batasWaktuSpawnMin merupakan bilangan float yang berfungsi sebagai nilai minimum detik dari
+															// pembangkitan objek tertentu
 
-	// Use this for initialization
+	public float batasWaktuSpawnMax = 2f;					// batasWaktuSpawnMax merupakan bilangan float yang berfungsi sebagai nilai maksimum detik dari
+															// pembangkitan objek tertentu
+
+
 	void Start () {
 		Spawn ();
 	}
@@ -22,7 +26,7 @@ public class SpawnObject : MonoBehaviour {
 	void Spawn(){
 		GameObject clone = (GameObject)Instantiate (obj[Random.Range(0,obj.Length)],transform.position,Quaternion.identity);
 		clone.name = "Quad1";
-		Invoke ("Spawn",Random.Range(spawnMin,spawnMax));
+		Invoke ("Spawn",Random.Range(batasWaktuSpawnMin,batasWaktuSpawnMax));
 	}
 
 
